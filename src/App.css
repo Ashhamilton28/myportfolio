@@ -55,7 +55,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .navbar {
   width: 100%;
   height: 100px;
-  background: #21325e;
+  background: #e383dc;
 }
 
 .links {
@@ -64,7 +64,7 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(104, 37, 37);
 }
 
 .navbar a {
@@ -94,6 +94,13 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
-.ahp{
-  background-color: pink;
+
+a{
+  color:hotpink;
+}
+
+
+.princesspink{
+  width:200px;
+  height: 200px;
 }

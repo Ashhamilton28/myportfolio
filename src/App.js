@@ -3,25 +3,38 @@ import Head from './components/Head';
 import Contact from './components/Contact';
 import Home from './components/Home';
 import Projects from './components/Projects';
-import Resume from './components/Resume';
+import About from './components/About';
 import NavBar from './components/NavBar';
 import './App.css';
+import Footer from './components/Footer';
+
 
 function App() {
-  return (
 
+
+ 
+
+
+
+
+  return (
     <div className="App">
       <Router>
-        <Head />
+        {/* <Head /> */}
         <NavBar />
+
 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+
+        <Footer />
       </Router>
+
+   
     </div>
 
 
