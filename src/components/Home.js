@@ -27,7 +27,7 @@ useEffect(()=>{
   return (
     <div className='home'>
       <h1>Hello World.</h1>
-      <p>My name is Ashley Hamilton. I am a Software Engineer from NYC. I love art, creativity and gallivanting. </p>
+      <p>I am Ashley Hamilton, a Software Engineer from NYC. I love art, creativity and gallivanting. </p>
 
 
 

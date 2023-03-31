@@ -51,11 +51,19 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+*{
+  
+}
 
 .navbar {
   width: 100%;
-  height: 100px;
-  background: #e383dc;
+  height: 75px;
+  background: #e29bdd;
+  
+  /* background-image: url(pics/pinksky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* box-shadow: 10px 10px 10px 10px #a86ea4; */
 }
 
 .links {
@@ -63,15 +71,15 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: rgb(104, 37, 37);
+  justify-content: flex-end;
+  /* color: rgb(60, 36, 36); */
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
   margin: 20px;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .toggleButton {
@@ -103,6 +111,7 @@ a{
 .princesspink{
   width:200px;
   height: 200px;
+  border-radius: 50%;
 }
 
 /* .project{
@@ -126,18 +135,30 @@ bottom: 0;
 margin: 0 auto;
 text-align: center;
 width: 100vw;
+
 }
 
 .App{
   border: 1px solid black;
   min-height: 100vh;
   position: relative;
+  background-image: url(pics/pinksky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  
 }
+
+
 
 .projects{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(pics/pinksky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 
 }
 
@@ -152,3 +173,46 @@ width: 100vw;
   object-fit: cover;
   border: 2px solid green;
 }
+
+.linkedinicon{
+  color: hotpink;
+  height: 30px;
+  width: 30px;
+ 
+
+}
+
+.githubicon{
+  color: hotpink;
+  height: 30px;
+  width: 30px;
+}
+
+.envelopeicon{
+  color: hotpink;
+  height: 30px;
+  width: 30px;
+}
+
+.nameandlinks{
+  display: flex;
+}
+
+.ashley{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  color: white;
+}
+
+.lge{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
+
+.designedbyah{
+  font-size: 18px;
+  color: hotpink;
+}
+
