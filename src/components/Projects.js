@@ -1,15 +1,21 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import PrincessPink from "../pics/PrincessPink.jpg"
+import  ProjectList from './ProjectList'
 
 
 function Projects() {
   return (
     <div className='projects'>
         <h1>My Projects</h1>
-        <div className='project-list'>
-            <ProjectItem name="Hangman Game" image={PrincessPink} />
-            <ProjectItem name="Hangman Game" image={PrincessPink}/>
+        <div className='projectList'>
+        
+
+{/* loop through project list */}
+            {ProjectList.map((project, idx) => {
+              return (
+              <ProjectItem id={idx} name={project.name} image={project.image} />
+              )
+            })}
 
         </div>
     </div>

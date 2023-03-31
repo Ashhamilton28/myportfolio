@@ -104,3 +104,51 @@ a{
   width:200px;
   height: 200px;
 }
+
+/* .project{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+
+.projectItem{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.footer{
+position: absolute;
+border: 1px solid red;
+bottom: 0;
+margin: 0 auto;
+text-align: center;
+width: 100vw;
+}
+
+.App{
+  border: 1px solid black;
+  min-height: 100vh;
+  position: relative;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.projectList{
+  border: 2px solid orange;
+  min-width: 400px;
+
+}
+
+
+.projectImages{
+  object-fit: cover;
+  border: 2px solid green;
+}

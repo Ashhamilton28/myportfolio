@@ -38,6 +38,8 @@ useEffect(()=>{
 
         {/* render the quote */}
        { quote &&<p>{quote.quote}</p>}
+       {/* render the author */}
+       { quote &&<p>{quote.author}</p>}
       </div>
 
     </div>
