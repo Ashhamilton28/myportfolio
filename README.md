@@ -1,5 +1,3 @@
-#Ashley's Portfolio
-
 ##Description
 Hello World. This is my portfolio which has some information about me, how to contact me and my projects. Some of the challenges that I faced when creating my portfolio was getting the pictures of the projects on the projects page size correctly, getting my API to work, finding a good API and deciding how to style my project. In this projects I used React and CSS and a little HTML.
 
