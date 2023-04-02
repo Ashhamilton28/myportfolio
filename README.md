@@ -1,4 +1,3 @@
-#Ashley's Portfolio
 ![Ashley's_Portfolio banner](https://user-images.githubusercontent.com/115365003/229368260-9aac63f2-7ecd-43a1-9095-7fe02feaa121.png)
 
 
