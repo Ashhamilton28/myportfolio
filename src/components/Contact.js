@@ -17,6 +17,7 @@ function Contact() {
                 <a href="mailto:AshleyHamiltonNYC@gmail.com">My Email</a>
             </div>
 
+            
            
         </div>
 

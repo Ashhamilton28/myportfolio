@@ -84,6 +84,10 @@ p, h1, h2, h3, h4, h5, h6 {
   
 }
 
+.navbar a:hover{
+  color: rgba(0, 0, 0, 0.659);
+}
+
 .toggleButton {
   width: 100%;
   height: 100px;
@@ -165,6 +169,11 @@ background-color:rgba(0, 0, 0, 0.313);
   height: 20px;
   width: 20px;
 }
+.linkedinicon:hover{
+  color: rgba(0, 0, 0, 0.659);
+}
+
+
 
 .githubicon{
   color: white;
@@ -172,10 +181,18 @@ background-color:rgba(0, 0, 0, 0.313);
   width: 20px;
 }
 
+.githubicon:hover{
+  color: rgba(0, 0, 0, 0.659);
+}
+
 .envelopeicon{
   color: white;
   height: 20px;
   width: 20px;
+}
+
+.envelopeicon:hover{
+  color: rgba(0, 0, 0, 0.659);
 }
 
 .nameandlinks{
@@ -240,6 +257,7 @@ align-items: center;
 flex-direction: column;
 border-radius: 50%;
 margin-bottom: 50px;
+box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.622);
 
 
 }
@@ -253,6 +271,7 @@ margin-bottom: 50px;
   font-size: 20px;
   /* color: rgb(203, 0, 156); */
   color: white;
+  
  
 }
 
@@ -278,6 +297,7 @@ margin-bottom: 50px;
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.538);
 }
 
 
@@ -328,10 +348,18 @@ margin-bottom: 50px;
 .advicebutton{
   width: 150px;
   color: white;
-  background-color: hotpink;
+  background-color: rgb(224, 87, 126);
   border: none;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.advicebutton:hover{
+  background-color: white;
+  color:hotpink;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
 }
 
 .skills{
@@ -344,6 +372,7 @@ align-items: center;
 flex-direction: column;
 border-radius: 50%;
 margin-bottom: 50px;
+box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.622);
 
 }
 
@@ -362,3 +391,8 @@ margin-bottom: 50px;
   font-size: 30px;
   color: white;
 }
+
+::selection {
+  background-color: #bc258f82;
+  color: white;
+  }
