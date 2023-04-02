@@ -1,15 +1,15 @@
-import hangmanpic from "../pics/hangmanpic.jpg"
-import tictactoepic from "../pics/tictactoepic.jpg"
+import hangmanpic2 from "../pics/hangmanpic2.jpg"
+import tictactoepic2 from "../pics/tictactoepic2.jpg"
 
  const ProjectList =[
     {
         name: "Hangman",
-        image: hangmanpic
+        image: hangmanpic2
     },
 
     {
         name: "Tic Tac Toe",
-        image: tictactoepic
+        image: tictactoepic2
     }
 ]
 

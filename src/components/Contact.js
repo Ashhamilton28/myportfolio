@@ -17,17 +17,7 @@ function Contact() {
                 <a href="mailto:AshleyHamiltonNYC@gmail.com">My Email</a>
             </div>
 
-            <div>
-                <a href="url">link text</a>
-            </div>
-
-            <FaLinkedin className='linkedinicon'  />
-            <FaGithub className='githubicon' />
-            <FaEnvelope className='envelopeicon' />
-          
-            <a href="https://github.com/Ashhamilton28"><FaGithub className='githubicon' /></a>
-
-            <a href="mailto:AshleyHamiltonNYC@gmail.com"></a>
+           
         </div>
 
 
