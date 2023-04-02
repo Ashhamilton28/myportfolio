@@ -16,7 +16,7 @@ function NavBar() {
             </button>
         </div> */}
       <div className='nameandlinks'>
-        <h1 className='ashley'>Ashley</h1>
+        <h1 className='ashley'>ASHLEY</h1>
         <ul className='links'>
           <Link to="/"> Home</Link>
           <Link to="/about">About</Link>

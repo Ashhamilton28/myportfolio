@@ -28,9 +28,12 @@ function Home() {
 
   return (
     <>
+      <div className='everything'>
+
+
       <div className='home'>
         <div className="hwiam">
-          <h1 className='hw'>Hello World. I am Ashley Hamilton.</h1>
+          <h1 className='hw'>Hello World. I am Ashley...</h1>
           <p className='iam'>A Software Engineer from NYC. I love art, creativity and Me. </p>
         </div>
 
@@ -42,23 +45,32 @@ function Home() {
       </div>
       <section className='bottomportion'>
         <div className='about'>
-          <div className='quotediv'>
-            <h2 className='advice'>Advice of the day</h2>
+         <div className='quoteandskills'>
+
+         <div className='quotediv'>
+            <h2 className='advice'>Advice of the day:</h2>
             <p className="quote-paragraph">{quote}</p>
+           
+            <button className="advicebutton" onClick={getQuote}>Get Advice</button>
           </div>
-
-          <p>I am a creative, fun and empathetic professional, trained in a Boot camp setting the principles of Software Engineering. I am a smart and driven individual with the ability to work well in a diverse workplace while managing various responsibilities in a deadline driven environment. I have exceptional soft skills along with delegation and leadership qualities. I enjoys learning, analyzing and exercising new concepts in the  tech sector.</p>
-
 
           <div className='skills'>
-            <h1>Skills</h1>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Javascript</span>
-            <span>React</span>
+          <h1 className='skillsheading'>Skills:</h1>
+            <span className='skillspan'>HTML</span>
+            <span className='skillspan'>CSS</span>
+            <span className='skillspan'>Javascript</span>
+            <span className='skillspan'>React</span>
           </div>
+         </div>
+
+          <p className='aboutparagraph'>I am a creative, fun and empathetic professional, trained in a Boot camp setting the principles of Software Engineering. I am a smart and driven individual with the ability to work well in a diverse workplace while managing various responsibilities in a deadline driven environment. I have exceptional soft skills along with delegation and leadership qualities. I enjoys learning, analyzing and exercising new concepts in the  tech sector.</p>
+
+        
+         
         </div>
       </section>
+
+      </div>
       <Footer />
     </>
   )

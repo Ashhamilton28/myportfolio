@@ -52,13 +52,17 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+*{
+  font-family: 'Lato', sans-serif;
+}
 
 
 .navbar {
   width: 100%;
   height: 75px;
-  background: #F1B8B8;  
+  /* background: #F1B8B8;   */
   padding:10px 20px;
+  background-color: rgba(0, 0, 0, 0.181);
 }
 
 .links {
@@ -72,10 +76,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a {
-  color:black;
+  color:white;
   text-decoration: none;
   margin: 20px;
   font-size: 18px;
+  font-family: 'Lato', sans-serif;
   
 }
 
@@ -118,7 +123,7 @@ p, h1, h2, h3, h4, h5, h6 {
 text-align: center;
 width: 100vw;
 padding:10px;
-background-color:black;
+background-color:rgba(0, 0, 0, 0.313);
 }
 
 .App{
@@ -126,6 +131,10 @@ background-color:black;
   /* display:flex;
   flex-direction: column; */
   /* min-height:100vh; */
+  background-image: url(pics/pinksky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .projects{
@@ -177,11 +186,9 @@ background-color:black;
   display: flex;
   align-items: center;
   margin-left: 20px;
-  /* color: white; */
+  color: white;
 font-size: 40px;
-  /* font-family: 'Alkatra', cursive; */
-font-family: 'Dancing Script', cursive;
-/* font-family: 'Edu NSW ACT Foundation', cursive; */
+font-family: 'Lato', sans-serif;
 }
 
 .lge{
@@ -199,13 +206,15 @@ font-family: 'Dancing Script', cursive;
 .hw{
   font-size: 60px;
   max-width:750px;
-   font-family: 'Alkatra', cursive;
+  font-family: 'Lato', sans-serif;
+  color: white;
 }
 
 .iam{
-  font-size: 30px;
+  font-size: 40px;
   max-width: 600px;
   font-style: italic;
+  color: white;
 }
 
 .quotediv{
@@ -220,22 +229,31 @@ font-family: 'Dancing Script', cursive;
   flex-direction: column;
   gap:10px;
   padding: 10px; */
-border: solid 2px black;
-width: 300px;
-height: 300px;
+/* border: solid 2px white; */
+/* background-color: rgba(255, 255, 255, 0.271); */
+background-color: rgba(0, 0, 0, 0.415);
+width: 400px;
+height: 400px;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 border-radius: 50%;
+margin-bottom: 50px;
+
+
 }
+
 
 
 .quote-paragraph{
   max-width: 200px;
   text-align: center;
-  color: rgb(85, 84, 84);
+  /* color: rgb(85, 84, 84); */
   font-size: 20px;
+  /* color: rgb(203, 0, 156); */
+  color: white;
+ 
 }
 
 
@@ -244,14 +262,16 @@ border-radius: 50%;
   flex-grow:2;
   color: black;
   flex-direction:row;
-  background: #F1B8B8;  
+  /* background: #F1B8B8;   */
+  
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 50px;
   min-height:100vh;
-  border:2px solid red;
+  /* border:2px solid red; */
   max-width:100vw;
+  
 }
 
 .princesspink{
@@ -272,4 +292,73 @@ border-radius: 50%;
   /* justify-content: center; */
   align-items: center;
   flex-direction: column;
+}
+
+.advicebutton{
+  margin-top:15px;
+}
+
+.aboutparagraph{
+  width: 700px;
+  text-align: center;
+  /* background-color: rgba(255, 255, 255, 0.271); */
+  background-color: rgba(0, 0, 0, 0.415);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  /* color: rgb(132, 28, 80); */
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* .everything{
+ 
+  
+  min-height: 100vh; 
+  border: 100px solid transparent;
+   border-image: url(pics/pinksky.jpg) 30 round;
+   background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.advice{
+  color: white;
+}
+
+.advicebutton{
+  width: 150px;
+  color: white;
+  background-color: hotpink;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.skills{
+  background-color: rgba(0, 0, 0, 0.415);
+width: 400px;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 50%;
+margin-bottom: 50px;
+
+}
+
+.quoteandskills{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.skillsheading{
+  font-size: 40px;
+  color: white;
+}
+
+.skillspan{
+  font-size: 30px;
+  color: white;
 }
