@@ -5,6 +5,7 @@ function Footer() {
     return (
         <div className='footer'>
             <p className='designedbyah'>Designed by Ashley Hamilton 2023</p>
+            <p className='ashleyhamiltonnyc'>AshleyHamiltonNYC@gmail.com</p>
            
             <div className='lge'>
                 <a href="https://linkedin.com/in/ashley-hamilton-">
