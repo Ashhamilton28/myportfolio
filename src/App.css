@@ -161,7 +161,7 @@ background-color:rgba(0, 0, 0, 0.313);
 
 .projectImages{
   object-fit: cover;
- 
+
 }
 
 .linkedinicon{
@@ -395,4 +395,18 @@ box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.622);
 ::selection {
   background-color: #bc258f82;
   color: white;
+  }
+
+  .myprojectsheading{
+    color: white;
+  }
+
+  .projectname{
+    color: white;
+    text-align: center;
+  }
+
+  .projectimage2{
+    border-radius: 12px;
+    
   }

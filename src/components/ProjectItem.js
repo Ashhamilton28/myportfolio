@@ -13,8 +13,8 @@ function ProjectItem({image, name, id}) {
     }} 
     >
         <div style={{ backgroundImage: 'url(${image})'}} className="backgroundImage" />
-        <h1>{name}</h1>
-       <img src={image} alt={name}/>
+        <h1 className='projectname'>{name}</h1>
+       <img className='projectimage2' src={image} alt={name}/>
     </div>
   )
 }
