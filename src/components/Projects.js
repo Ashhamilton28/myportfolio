@@ -3,6 +3,7 @@ import ProjectItem from './ProjectItem'
 import  ProjectList from './ProjectList'
 
 
+
 function Projects() {
   return (
     <div className='projects'>
@@ -18,7 +19,9 @@ function Projects() {
             })}
 
         </div>
+      
     </div>
+   
   )
 }
 

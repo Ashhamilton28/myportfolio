@@ -8,6 +8,7 @@ import NavBar from './components/NavBar';
 import './App.css';
 
 import ProjectDisplay from './components/ProjectDisplay';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,14 +22,14 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
           <Route path="/contact" element={<Contact />} />
         </Routes>
 
-       
-      </Router>
 
-   
+      </Router>
+      <Footer />
+
     </div>
 
 

@@ -54,6 +54,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 *{
   font-family: 'Lato', sans-serif;
+  color:white;
 }
 
 
@@ -118,9 +119,11 @@ p, h1, h2, h3, h4, h5, h6 {
 } */
 
 .projectItem{
-  width: 300px;
-  height: 300px;
-  border-radius: 10px;
+  
+  max-width: 250px;
+ 
+ 
+ 
 }
 
 .footer{
@@ -128,6 +131,8 @@ text-align: center;
 width: 100vw;
 padding:10px;
 background-color:rgba(0, 0, 0, 0.313);
+/* position: absolute; */
+/* bottom: 0; */
 }
 
 .App{
@@ -145,6 +150,7 @@ background-color:rgba(0, 0, 0, 0.313);
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 80vh;
   /* background-image: url(pics/pinksky.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -153,8 +159,12 @@ background-color:rgba(0, 0, 0, 0.313);
 }
 
 .projectList{
+
+  min-width: 600px;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
  
-  min-width: 400px;
 
 }
 
@@ -279,7 +289,7 @@ box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.622);
 .home{
   padding: 20px;
   flex-grow:2;
-  color: black;
+  
   flex-direction:row;
   /* background: #F1B8B8;   */
   
@@ -312,6 +322,8 @@ box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.622);
   /* justify-content: center; */
   align-items: center;
   flex-direction: column;
+ 
+  min-height: 80vh;
 }
 
 .advicebutton{
@@ -399,6 +411,7 @@ box-shadow: 20px 5px 5px rgba(0, 0, 0, 0.622);
 
   .myprojectsheading{
     color: white;
+   
   }
 
   .projectname{

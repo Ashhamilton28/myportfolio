@@ -19,7 +19,7 @@ function NavBar() {
         <h1 className='ashley'>ASHLEY</h1>
         <ul className='links'>
           <Link to="/"> Home</Link>
-          <Link to="/about">About</Link>
+          {/* <Link to="/about">About</Link> */}
           <Link to="/projects"> Projects</Link>
           <Link to="/contact"> Contact</Link>
 
